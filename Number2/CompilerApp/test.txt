@@ -1,0 +1,5 @@
+InputOperand R0, 10
+InputOperand R1, 10
+Swap R0, R1
+PrintOperand R0, 10
+PrintOperand R1, 10

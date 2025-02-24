@@ -1,0 +1,13 @@
+<!-- LoadingDialog.xaml -->
+<Window x:Class="CompilerApp.LoadingDialog"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Loading" Height="150" Width="300" WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize" ShowInTaskbar="False">
+    <Grid>
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <ProgressBar x:Name="ProgressBar" IsIndeterminate="True" Height="20" Width="200"/>
+            <TextBlock x:Name="StatusTextBlock" Text="Loading..." Margin="0,10,0,0" HorizontalAlignment="Center"/>
+        </StackPanel>
+    </Grid>
+</Window>

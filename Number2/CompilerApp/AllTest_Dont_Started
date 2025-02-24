@@ -1,0 +1,96 @@
+PrintRegisters 10 
+
+InputOperand R0, 10
+PrintOperand R0, 10
+
+
+InputOperand R0, 10
+InputOperand R1, 10
+Addition R0, R1, R2
+PrintOperand R2, 10
+
+
+InputOperand R0, 10
+InputOperand R1, 10
+Subtraction R0, R1, R2
+PrintOperand R2, 10
+
+
+InputOperand R0, 10
+InputOperand R1, 10
+Multiplication R0, R1, R2
+PrintOperand R2, 10
+
+
+InputOperand R0, 10
+InputOperand R1, 10
+Division R0, R1, R2
+PrintOperand R2, 10
+
+
+остаток от деления
+InputOperand R0, 10
+InputOperand R1, 10
+Modulo R0, R1, R2
+PrintOperand R2, 10
+
+
+Инвертирует биты в R0, результат в R1.
+InputOperand R0, 10
+BitwiseInversion R0, R1
+PrintOperand R1, 10
+
+
+InputOperand R0, 10
+InputOperand R1, 10
+Disjunction R0, R1, R2
+PrintOperand R2, 10
+
+
+InputOperand R0, 10
+InputOperand R1, 10
+Conjunction R0, R1, R2
+PrintOperand R2, 10
+
+
+InputOperand R0, 10
+InputOperand R1, 10
+Xor R0, R1, R2
+PrintOperand R2, 10
+
+
+InputOperand R0, 10
+InputOperand R1, 10
+ShiftLeft R0, R1, R2
+PrintOperand R2, 10
+
+
+InputOperand R0, 10
+InputOperand R1, 10
+ShiftRight R0, R1, R2
+PrintOperand R2, 10
+
+
+Циклический сдвиг влево
+InputOperand R0, 10
+InputOperand R1, 10
+RotateLeft R0, R1, R2
+PrintOperand R2, 10
+
+
+InputOperand R0, 10
+MaxPowerOfTwo R0, R1
+PrintOperand R1, 10
+
+
+InputOperand R0, 10
+InputOperand R1, 10
+Copy R0, R1
+PrintOperand R0, 10
+
+
+InputOperand R0, 10
+InputOperand R1, 10
+Swap R0, R1
+PrintOperand R0, 10
+PrintOperand R1, 10

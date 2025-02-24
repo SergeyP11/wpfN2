@@ -1,0 +1,28 @@
+public enum Operation
+{
+    PrintRegisters = 0,
+    BitwiseInversion = 1,
+    Disjunction = 2,
+    Conjunction = 3,
+    Xor = 4,
+    Implication = 5,
+    Coimplication = 6,
+    Equivalence = 7,
+    PierceArrow = 8,
+    ShefferStroke = 9,
+    Addition = 10,
+    Subtraction = 11,
+    Multiplication = 12,
+    Division = 13,
+    Modulo = 14,
+    Swap = 15,
+    SetByte = 16,
+    PrintOperand = 17,
+    InputOperand = 18,
+    MaxPowerOfTwo = 19,
+    ShiftLeft = 20,
+    ShiftRight = 21,
+    RotateLeft = 22,
+    RotateRight = 23,
+    Copy = 24
+}
